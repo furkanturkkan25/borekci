@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10160e">
+  <title>Börekçi</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body class="entry">
+  <main class="entry-split">
+    <section class="entry-copy">
+      <p class="eyebrow">Sipariş tezgahı</p>
+      <h1 data-shop>Börekçi</h1>
+      <p class="lede">Garson tabletten yazar. Kasa, hangi masada ne olduğunu anında görür.</p>
+      <nav class="entry-actions" aria-label="Ekran seç">
+        <a class="action" href="/garson">
+          <span class="action-kicker">Tablet</span>
+          <span class="action-title">Garson</span>
+          <span class="action-go">Sipariş gir</span>
+        </a>
+        <a class="action" href="/kasa">
+          <span class="action-kicker">Ana kasa</span>
+          <span class="action-title">Kasa</span>
+          <span class="action-go">Masaları aç</span>
+        </a>
+        <a class="action" href="/ayar">
+          <span class="action-kicker">Dükkan</span>
+          <span class="action-title">Ayar</span>
+          <span class="action-go">Menü ve masa</span>
+        </a>
+      </nav>
+    </section>
+  </main>
+  <script>
+    fetch("/api/menu").then((res) => res.json()).then((menu) => {
+      document.title = menu.shop;
+      document.querySelectorAll("[data-shop]").forEach((node) => {
+        node.textContent = menu.shop;
+      });
+    }).catch(() => {});
+  </script>
+</body>
+</html>

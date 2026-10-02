@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10160e">
+  <title>Ayar · Börekçi</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="/" data-shop>Börekçi</a>
+    <p class="role">Ayar</p>
+  </header>
+  <form class="ayar" id="form">
+    <h2>Masalar</h2>
+    <div class="masa-set">
+      <button class="step" type="button" id="tables-dec" aria-label="Masa azalt">−</button>
+      <input id="tables" inputmode="numeric" aria-label="Masa sayısı" required>
+      <button class="step" type="button" id="tables-inc" aria-label="Masa arttır">+</button>
+    </div>
+    <p class="masa-hint">1 ile 40 arası. Dolu bir masayı silmeden önce hesabını kapat.</p>
+
+    <p class="eyebrow ayar-label">Menü</p>
+    <div id="items"></div>
+    <button class="group-add" type="button" id="add-group">Yeni grup</button>
+    <div class="ayar-save">
+      <p class="ayar-note" id="note" role="status"></p>
+      <button class="send" type="submit">Kaydet</button>
+    </div>
+  </form>
+  <script src="/js/shared.js"></script>
+  <script src="/js/ayar.js"></script>
+</body>
+</html>

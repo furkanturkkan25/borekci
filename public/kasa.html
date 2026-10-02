@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10160e">
+  <title>Kasa · Börekçi</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body class="kasa">
+  <header class="bar">
+    <a class="brand" href="/" data-shop>Börekçi</a>
+    <p class="role">Kasa</p>
+    <a class="ayar-link" href="/ayar">Ayar</a>
+    <p class="kasa-meta" id="meta">Bağlanıyor</p>
+    <div class="bar-space">
+      <span class="link" id="link"></span>
+      <p class="clock" id="clock"></p>
+    </div>
+  </header>
+  <div class="board" id="board"></div>
+  <p class="toast" id="toast" role="status"></p>
+  <dialog id="sheet" aria-labelledby="sheet-title">
+    <div class="sheet-head">
+      <p class="sheet-kicker">Masa</p>
+      <h2 id="sheet-title">01</h2>
+      <button type="button" id="sheet-close">Kapat</button>
+    </div>
+    <div class="sheet-lines" id="sheet-lines"></div>
+    <button class="pay" id="pay" type="button">Hesabı kapat</button>
+  </dialog>
+  <script src="/js/shared.js"></script>
+  <script src="/js/kasa.js"></script>
+</body>
+</html>

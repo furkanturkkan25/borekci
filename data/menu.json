@@ -1,0 +1,102 @@
+{
+  "shop": "Börekçi",
+  "tables": 12,
+  "items": [
+    {
+      "id": "peynirli",
+      "name": "Peynirli börek",
+      "price": 90,
+      "group": "Börek"
+    },
+    {
+      "id": "kiymali",
+      "name": "Kıymalı börek",
+      "price": 110,
+      "group": "Börek"
+    },
+    {
+      "id": "patatesli",
+      "name": "Patatesli börek",
+      "price": 85,
+      "group": "Börek"
+    },
+    {
+      "id": "ispanakli",
+      "name": "Ispanaklı börek",
+      "price": 90,
+      "group": "Börek"
+    },
+    {
+      "id": "su-boregi",
+      "name": "Su böreği",
+      "price": 80,
+      "group": "Börek"
+    },
+    {
+      "id": "kol",
+      "name": "Kol böreği",
+      "price": 100,
+      "group": "Börek"
+    },
+    {
+      "id": "sigara",
+      "name": "Sigara böreği",
+      "price": 50,
+      "group": "Börek"
+    },
+    {
+      "id": "gul",
+      "name": "Gül böreği",
+      "price": 90,
+      "group": "Börek"
+    },
+    {
+      "id": "pogaca",
+      "name": "Poğaça",
+      "price": 35,
+      "group": "Fırın"
+    },
+    {
+      "id": "acma",
+      "name": "Açma",
+      "price": 40,
+      "group": "Fırın"
+    },
+    {
+      "id": "simit",
+      "name": "Simit",
+      "price": 25,
+      "group": "Fırın"
+    },
+    {
+      "id": "cay",
+      "name": "Çay",
+      "price": 20,
+      "group": "İçecek"
+    },
+    {
+      "id": "ayran",
+      "name": "Ayran",
+      "price": 30,
+      "group": "İçecek"
+    },
+    {
+      "id": "kola",
+      "name": "Kola",
+      "price": 45,
+      "group": "İçecek"
+    },
+    {
+      "id": "su",
+      "name": "Su",
+      "price": 15,
+      "group": "İçecek"
+    },
+    {
+      "id": "salgam",
+      "name": "Şalgam",
+      "price": 30,
+      "group": "İçecek"
+    }
+  ]
+}

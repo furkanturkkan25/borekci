@@ -1,0 +1,55 @@
+{
+  "day": "2026-09-27",
+  "tables": {},
+  "paid": [
+    {
+      "id": "342faaf4-cc25-4d6e-a799-3ab6c68f28de",
+      "at": "2026-09-27T14:18:15.631Z",
+      "day": "2026-09-27",
+      "table": 1,
+      "total": 1045,
+      "lines": [
+        {
+          "name": "Peynirli börek",
+          "qty": 1,
+          "price": 90
+        },
+        {
+          "name": "Kıymalı börek",
+          "qty": 1,
+          "price": 110
+        },
+        {
+          "name": "Patatesli börek",
+          "qty": 3,
+          "price": 85
+        },
+        {
+          "name": "Ispanaklı börek",
+          "qty": 3,
+          "price": 90
+        },
+        {
+          "name": "Su böreği",
+          "qty": 1,
+          "price": 80
+        },
+        {
+          "name": "Kol böreği",
+          "qty": 1,
+          "price": 100
+        },
+        {
+          "name": "Gül böreği",
+          "qty": 1,
+          "price": 90
+        },
+        {
+          "name": "Sigara böreği",
+          "qty": 1,
+          "price": 50
+        }
+      ]
+    }
+  ]
+}

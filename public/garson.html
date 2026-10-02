@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#10160e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Garson · Börekçi</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body class="garson">
+  <header class="bar">
+    <a class="brand" href="/" data-shop>Börekçi</a>
+    <p class="role">Garson</p>
+    <div class="bar-space">
+      <span class="link" id="link"></span>
+      <p class="sr" id="status">Bağlanıyor</p>
+    </div>
+  </header>
+  <div class="table-rail" id="tables" role="tablist" aria-label="Masalar"></div>
+  <div class="work">
+    <div id="menu"></div>
+    <aside class="slip" aria-label="Adisyon">
+      <div class="slip-head">
+        <p>Masa</p>
+        <h2 id="slip-table">01</h2>
+      </div>
+      <div class="slip-scroll" id="slip-body"></div>
+      <label class="note-label">
+        Not
+        <input id="note" maxlength="140" placeholder="Az pişmiş, sos ayrı" autocomplete="off">
+      </label>
+      <p class="slip-error" id="slip-error" hidden></p>
+      <button class="send" id="send" type="button" disabled>Gönder</button>
+    </aside>
+  </div>
+  <script src="/js/shared.js"></script>
+  <script src="/js/garson.js"></script>
+</body>
+</html>
